@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Heredia</item>
+        <item>Alajuela</item>
+        <item>San Jose</item>
+        <item>Puntarenas</item>
+        <item>Cartago</item>
+
+    </string-array>
+</resources>

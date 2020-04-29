@@ -7,4 +7,6 @@
     <color name="color_icon">#080357</color>
     <color name="color_orange">#FF9F1C</color>
     <color name="color_button_send">#00BDE3</color>
+    <color name="background_item">#FAF8FF</color>
+    <color name="hover_item">#5460FE</color>
 </resources>

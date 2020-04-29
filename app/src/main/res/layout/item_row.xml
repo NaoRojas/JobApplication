@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:layout_margin="@dimen/margin"
+    android:background="@color/background_item"
+    android:foregroundTint="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_item"
+        android:orientation="vertical"
+        android:padding="10sp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lbl_name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-black"
+                android:maxLines="1"
+
+                android:text="Name"
+                android:textColor="#000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-thin"
+                android:maxLines="1"
+                android:text="Naomi Rojas"
+                android:textColor="#000"
+                android:textFontWeight="250"
+                android:textSize="15dp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lbl_pos"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-black"
+            android:maxLines="1"
+            android:text="Position"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+
+
+        <TextView
+            android:id="@+id/position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-thin"
+            android:textFontWeight="250"
+            android:text="Ingeneria Sistemas"
+            android:textColor="#000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</FrameLayout>
